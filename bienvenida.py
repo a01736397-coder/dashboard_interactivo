@@ -24,3 +24,14 @@ def resumen_analitica():
 datos = resumen_analitica()
 print("Total de ventas :", datos["total"])
 print("promedio diario : ", datos["promedio"])
+
+import matplotlib.pyplot as plt
+
+def graficar_ventas(dias, ventas):
+    plt.figure(figsize=(8,4))
+    plt.plot(dias, ventas, markers = "o", linestyle ="-", color ="red")
+    plt.title("Ventas diarias")
+    plt.xlabel("Día")
+    plt.ylabel("Ventas")
+    plt.grid(True)
+    plt.show 
