@@ -5,10 +5,14 @@ a = 40
 b = 30
 c = 8
 
+<<<<<<< HEAD
 def suma():
     print("Suma total: ", a + b + c)
 
 suma()
+=======
+print(suma(4,6))
+>>>>>>> 998460a46d4ad2d8d81ccb1272a9aa00b8a8c1d7
 
 
 import matplotlib.pyplot as plt
@@ -25,6 +29,7 @@ def graficar_ventas(dias, ventas):
 def main_frontend(): 
     dias = ["Lun", "Mar", "Mie", "Jue", "Vie"]
     ventas = [120, 500, 230, 289, 310]
+<<<<<<< HEAD
     graficar_ventas(dias, ventas)
 
 main_frontend()
@@ -49,3 +54,10 @@ def resumen_analitica():
 datos = resumen_analitica()
 print("Total de ventas :", datos["total"])
 print("Promedio diario:", datos["promedio"])
+=======
+    graficar_ventas(dias,ventas)
+
+main_frontend()
+
+print("lp")
+>>>>>>> 998460a46d4ad2d8d81ccb1272a9aa00b8a8c1d7
